@@ -1,0 +1,23 @@
+Day 1
+Use Radius to limit the results
+
+Type = hotel|restaurant
+Use kewyword to limit the results to restaurant  
+
+Note: Adding both `keyword` and `type` with the same value
+ (`keyword=cafe&type=cafe` or `keyword=parking&type=parking`) can yield `ZERO_RESULTS`.
+ 
+ Important Columns
+1. results[n].business_status 
+2. results[n].geometry.location.lat
+3. results[n].geometry.location.lng
+4. results[n].name
+5. results[n].opening_hours.open_now //Boolean
+6. results[n].photos[x] --- Exact results[n].photos[x].html_attributions[x] can take top 5 images
+take Height and width data for each
+
+7. results[n].price_level
+8. results[n].rating 
+9. results[n].types 
+10. results[n].user_ratings_total 
+11. results[n].vicinity
