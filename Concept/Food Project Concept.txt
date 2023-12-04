@@ -20,4 +20,4 @@ take Height and width data for each
 8. results[n].rating 
 9. results[n].types 
 10. results[n].user_ratings_total 
-11. results[n].vicinity
+11. results[n].vicinity 
