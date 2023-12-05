@@ -1,0 +1,15 @@
+1. Call the Data from the google API. (OR save to Github and call it)
+2. Save the data to MongoDB - Document Database (Docker Image Available)
+3. Use Pyspark for ETL - Extract Transform Loading. (Docker Image Available)
+4. Use (MySQL/ PostGreSQL / MSSQL)  (Docker Image Available)
+5. PowerBI / Tableau - Tableau (Docker Image Available)
+To make Pipeline structure or DAG - CRON job (scheduled task/ job which will run on specific time interval
+condition)
+Condition - Expand- Webapp --> input user --> Airflow 
+Airflow (Scheduler) - pyspark to database to Visualization
+
+Use Docker 
+Airflow -- 2,3 container
+Database -- 2 container
+Pyspark -- x container
+PowerBI -- x container
